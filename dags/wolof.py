@@ -15,11 +15,9 @@ FILE_NAME = "wolof.txt"
 def read_from_s3(**context):
     ti = context['ti']
     output_files = ti.xcom_pull(task_ids='download_all_wolof_audio')
-    # print(f"========== {output_files}=======")
     print("📥 Lecture du fichier depuis S3...")
     hook = S3Hook(aws_conn_id="aws_default")
-    # buckets = hook.get_bucket(BUCKET_NAME)
-    # print(f"object hook S3: {dir(hook)}")
+
     try:
         keys = hook.list_keys(bucket_name=BUCKET_NAME)
         if keys:
@@ -118,3 +116,5 @@ with DAG(
         python_callable=read_from_s3
     )
     task_download_audio >> task_save_to_s3>>read_task
+
+    
