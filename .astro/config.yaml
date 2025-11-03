@@ -1,2 +1,6 @@
 project:
     name: wolof-audio
+
+mounts:
+  - src: ./include
+    dst: .data

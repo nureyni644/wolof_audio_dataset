@@ -1,5 +1,5 @@
 # Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
-yt-dlp
+yt-dlp>=2025.10.22
 ipython
 boto3
 apache-airflow-providers-amazon
