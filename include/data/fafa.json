@@ -1,0 +1,9 @@
+{
+    "download_path": "fafa",
+    "channel_name": "fafatv-sn",
+    "youtube_channel_url": "https://www.youtube.com/@fafatv-sn/videos",
+    "filter_keyword": "[]",
+    "schedule_cron_expression": "*/20 * * * *"
+
+
+}

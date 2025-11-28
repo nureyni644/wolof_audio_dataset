@@ -1,0 +1,9 @@
+{
+    "download_path": "xalaattv",
+    "channel_name": "Xalaattv",
+    "youtube_channel_url":"https://www.youtube.com/@Xalaattv/videos",
+    "filter_keyword": "[]",
+    "schedule_cron_expression": "*/25 * * * *"
+
+
+}

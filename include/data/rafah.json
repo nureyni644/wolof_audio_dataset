@@ -1,0 +1,9 @@
+{
+    "download_path": "rafah",
+    "channel_name": "rafahtvinternational3478",
+    "youtube_channel_url": "https://www.youtube.com/@rafahtvinternational3478/videos",
+    "filter_keyword": "['khoutba']",
+    "schedule_cron_expression": "*/20 * * * *"
+
+
+}

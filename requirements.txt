@@ -3,3 +3,8 @@ yt-dlp>=2025.10.22
 ipython
 boto3
 apache-airflow-providers-amazon
+huggingface-hub>=1.1.4
+torch>=2.9.0
+torchaudio>=2.9.1
+torchcodec>=0.8.1
+python-dotenv

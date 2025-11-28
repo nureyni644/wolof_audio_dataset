@@ -139,14 +139,5 @@ with DAG('s3_upload',
 
         upload_to_s3(file_name)
 
-    
-    # list_videos_task = PythonOperator(
-    #     task_id='list_videos_task',
-    #     python_callable=list_videosByChannel,
-    #     op_kwargs={'channel_url': "https://www.youtube.com/@rts-radiotelevisionsenegalaise/videos"}
-    # )
-    # print(list_videos_task.output)
-    # task_download = download_video.expand(video_url=list_videos_task.output)
-
     task_get_videos = get_videos_list(channel_url='https://www.youtube.com/@rts-radiotelevisionsenegalaise/videos')
     task_download = download_video.expand(video_url=task_get_videos)

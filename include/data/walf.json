@@ -1,0 +1,9 @@
+{
+    "download_path": "walf",
+    "channel_name": "WalfadjriTV",
+    "youtube_channel_url": "https://www.youtube.com/@WalfadjriTV/videos",
+    "filter_keyword": "['xibaar']",
+    "schedule_cron_expression": "*/20 * * * *"
+
+
+}

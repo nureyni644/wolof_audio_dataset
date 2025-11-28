@@ -1,0 +1,7 @@
+{
+    "download_path": "rts",
+    "channel_name": "rts-radiotelevisionsenegalaise",
+    "youtube_channel_url": "https://www.youtube.com/@rts-radiotelevisionsenegalaise/videos",
+    "filter_keyword": "['xibaar']",
+    "schedule_cron_expression": "*/15 * * * *"
+}
